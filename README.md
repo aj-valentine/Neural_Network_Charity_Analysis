@@ -1,5 +1,5 @@
-# Non-profit Charity Analysis using Neural Network Models :brain:
-## Analyzing whether non-profit applicants will be successful if they are funded by company Alphabet Soup with neural network models
+# Non-profit Analysis using Neural Network Models :brain:
+## Analyzing whether non-profit applicants will be successful with neural network models
 
 ## Overview of the Non-Profit Analysis
 
