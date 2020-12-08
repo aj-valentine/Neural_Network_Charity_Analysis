@@ -34,9 +34,11 @@ The tools used in this analysis are: Python and TensorFlow with Neural Network M
 - With many different types of adjustments, the best performance reached with the model was 73% accuracy and loss 56%. Before the adjustments, the model was performing at 45% accuracy and 76% loss. 
 
 Original Model:
+
 <img width="442" alt="model1performance" src="https://user-images.githubusercontent.com/67871338/101429814-cb982c00-38d1-11eb-9b88-d7a7bcb3be12.PNG">
 
 Optimized Model:
+
 <img width="439" alt="model2performance" src="https://user-images.githubusercontent.com/67871338/101429815-cb982c00-38d1-11eb-83d1-1bb523076d72.PNG">
 
 #### What steps did you take to try and increase model performance? 
