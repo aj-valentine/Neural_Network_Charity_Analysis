@@ -28,14 +28,14 @@ What variables are neither targets nor features and should be removed from the i
 How many neurons, layers, and activation functions did you select for your neural network model and why? 
 - In the fsecond optimization version of the model, the amount of inputs were the length of the training set of X. The first layer had 125 neurons, the second 60, and the third also 60. Overall, there were 15,906 total parameters. 
 
--- insert screen shot
+<img width="631" alt="neuronsinputs" src="https://user-images.githubusercontent.com/67871338/101429813-caff9580-38d1-11eb-9ba4-7b6e41038920.PNG">
 
 Were you able to achieve the target model performance? 
 - With many different types of adjustments, the best performance reached with the model was 73% accuracy and loss 56%. Before the adjustments, the model was performing at 45% accuracy and 76% loss. 
 
--- insert screen shot
+<img width="442" alt="model1performance" src="https://user-images.githubusercontent.com/67871338/101429814-cb982c00-38d1-11eb-9b88-d7a7bcb3be12.PNG">
 
--- insert screen shot
+<img width="439" alt="model2performance" src="https://user-images.githubusercontent.com/67871338/101429815-cb982c00-38d1-11eb-83d1-1bb523076d72.PNG">
 
 What steps did you take to try and increase model performance? 
 - The following steps were taken in order to reach the 73% accuracy level: 
@@ -43,7 +43,6 @@ What steps did you take to try and increase model performance?
     2. Added additional neurons to all hidden layers 
     3. Added an additional hidden layer
     4. Changed the Tensorflow epocs number from 100 to 150
-
 
 ## Summary 
 
