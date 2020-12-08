@@ -11,33 +11,33 @@ The tools used in this analysis are: Python and TensorFlow with Neural Network M
 
 ## Results 
 
-1. Data Preprocessing:
+### 1. Data Preprocessing:
 
-What variables are considered the targets for your model? 
+#### What variables are considered the targets for your model? 
 - In the neural network model, the target of the analysis is variable y: whether or not the application is successful. In other words, the target is to figure out whether the model can accurately predict whether or not the company will be successful and use the funding money effectively. 
 
-What variables are considered to be the features for your model? 
+#### What variables are considered to be the features for your model? 
 - The X variable is the feature for the model. X is made up of the features of the dataset that do not include y. In this case, the features of the model are: application type, affiliation, classification, use case for funding, organization type, status, income classification, special considerations for application, and funding amount requested. 
 
-What variables are neither targets nor features and should be removed from the input data? 
+#### What variables are neither targets nor features and should be removed from the input data? 
 - The two variables that are dropped in the beginning of the data preprocessing step are: EIN and Name. These are dropped because they do not provide the model with any additional data to help it predict successful funding. 
 
-2. Compiling, Training, and Evaluating the Model: 
+### 2. Compiling, Training, and Evaluating the Model: 
 
 
-How many neurons, layers, and activation functions did you select for your neural network model and why? 
+#### How many neurons, layers, and activation functions did you select for your neural network model and why? 
 - In the fsecond optimization version of the model, the amount of inputs were the length of the training set of X. The first layer had 125 neurons, the second 60, and the third also 60. Overall, there were 15,906 total parameters. 
 
 <img width="631" alt="neuronsinputs" src="https://user-images.githubusercontent.com/67871338/101429813-caff9580-38d1-11eb-9ba4-7b6e41038920.PNG">
 
-Were you able to achieve the target model performance? 
+#### Were you able to achieve the target model performance? 
 - With many different types of adjustments, the best performance reached with the model was 73% accuracy and loss 56%. Before the adjustments, the model was performing at 45% accuracy and 76% loss. 
 
 <img width="442" alt="model1performance" src="https://user-images.githubusercontent.com/67871338/101429814-cb982c00-38d1-11eb-9b88-d7a7bcb3be12.PNG">
 
 <img width="439" alt="model2performance" src="https://user-images.githubusercontent.com/67871338/101429815-cb982c00-38d1-11eb-83d1-1bb523076d72.PNG">
 
-What steps did you take to try and increase model performance? 
+#### What steps did you take to try and increase model performance? 
 - The following steps were taken in order to reach the 73% accuracy level: 
     1. Dropped more inputs (columns) in the dataset: special considerations and use case 
     2. Added additional neurons to all hidden layers 
